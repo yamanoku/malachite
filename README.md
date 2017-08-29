@@ -22,7 +22,7 @@ Downloading from **Download ZIP** and Unpacking, access `/wp-content/themes` wit
 > **「Download ZIP」** よりダウンロードして解凍後、FTPソフト等で`/wp-content/themes`にアクセスし、フォルダごとアップロードしてください。
 テーマ一覧に表示されてたら **「有効化」** をクリックして反映してください。  
 
-## 更新履歴
+## Updates
 
 2015/07/17 ... Published in OBT
 
