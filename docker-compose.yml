@@ -1,7 +1,7 @@
 version: "2"
 services:
     wordpress:
-        image: wordpress:latest
+        build: .
         ports:
             - "9000:80"
         depends_on:
@@ -11,13 +11,12 @@ services:
         env_file: .env
         volumes:
             - ./theme:/var/www/html/wp-content/themes/malachite
-            - "./wp-content:/var/www/html/wp-content"
     db:
         image: mysql:latest
         env_file: .env
         volumes:
             - db-data:/var/lib/mysql
-            - ./mysql.dump.sql:/docker-entrypoint-initdb.d/install_wordpress.sql
+            - ./db-data/mysql.dump.sql:/docker-entrypoint-initdb.d/install_wordpress.sql
 
 volumes:
     db-data:

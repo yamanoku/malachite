@@ -11,10 +11,11 @@ It is Wordpress theme maiden work. Building like a material design while succeed
 > Wordpressテーマ処女作です。シンプルなデザインを継承しつつマテリアルデザインっぽく構築しました。目にやさしい色です。
 
 ```
+├ db-data/mysql.dump.sql (malachite dump sql file)
 ├ theme/ (malachite theme)
 ├ .env (environment variables file)
 ├ docker-compose.yml (docker container file)
-└ mysql.dump.sql (malachite dump sql file)
+└ Dockerfile (automatically build images)
 ```
 ## Wiki
 https://github.com/yamanoku/malachite/wiki
@@ -41,10 +42,10 @@ Downloading from **Download ZIP** and Unpacking, access `/wp-content/themes` wit
 ## Updates
 
 - 2015/07/17 ... Published in OBT
-- 2017/09/30 ... Add docker-compose.yml & Each File.
+- 2017/10/09 ... Docker Files Add
 
 > - 2015/07/17 … オープンベータテストにて公開
-> - 2017/09/30 … docker-compose.yml、他ファイル追加
+> - 2017/09/30 … Dockerファイル群追加
 
 ## Author
 [yamanoku](https://github.com/yamanoku/)
