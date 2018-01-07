@@ -22,6 +22,10 @@ https://github.com/yamanoku/malachite/wiki
 
 ## Demo
 
+### DemoSite
+http://malachite.yamanoku.net/
+
+### Docker
 Using docker-compose. If need installation, please visit http://docs.docker.jp/compose/install.html . Please access from the following when starting.
 
 > docker-composeを使用しています。インストールが必要な場合、http://docs.docker.jp/compose/install.html をご覧ください。起動したら以下よりアクセスしてください。
@@ -35,9 +39,9 @@ localhost:9000
 
 ## Install
 
-Downloading from **Download ZIP** and Unpacking, access `/wp-content/themes` with FTP software, Please upload `theme`　folder. When it appears in the theme list, please click **Enable** to reflect it.
+Downloading from **Download ZIP** and Unpacking, access `/wp-content/themes` with FTP software, Please zip and upload `theme`　folder. When it appears in the theme list, please click **Enable** to reflect it.
 
-> **「Download ZIP」** よりダウンロードして解凍後、FTPソフト等で`/wp-content/themes`にアクセスし、`theme`フォルダをアップロードしてください。テーマ一覧に表示されてたら **「有効化」** をクリックして反映してください。
+> **「Download ZIP」** よりダウンロードして解凍後、FTPソフト等で`/wp-content/themes`にアクセスし、`theme`フォルダをZIP化してアップロードしてください。テーマ一覧に表示されてたら **「有効化」** をクリックして反映してください。
 
 ## Updates
 
