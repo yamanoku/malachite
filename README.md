@@ -23,7 +23,7 @@ https://github.com/yamanoku/malachite/wiki
 ## Demo
 
 ### DemoSite
-http://malachite.yamanoku.net/
+http://malachite-theme.yamanoku.net/
 
 ### Docker
 Using docker-compose. If need installation, please visit http://docs.docker.jp/compose/install.html . Please access from the following when starting.
